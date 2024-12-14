@@ -24,14 +24,11 @@ Primeiramente, é importante ressaltar que o projeto foi desenvolvido em **ROS1 
   ```
 
 - Após isso, basta lançar o Cookbot no **Gazebo** e no **RViz**:
-- 
-
-- Para lançar o robô no **Gazebo**, use o seguinte comando
+- - Para lançar o robô no **Gazebo**, use o seguinte comando
   ```
   roslaunch my_robot_urdf spawn_urdf.launch
   ```
-  
-- Para lançar o robô no **RViz**, use o seguinte comando
+- -Para lançar o robô no **RViz**, use o seguinte comando
   ```
   roslaunch my_robot_urdf display.launch
   ```
