@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="mont_simplificada">
+    <link name="world">
+        <visual>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>
+            </geometry>
+            <origin rpy="0 1.57 1.57" xyz="0 0 0"/>
+        </visual>
+    </link>
+
+    <link name="BASE_ROBO_V2">
+        <inertial>
+            <origin xyz="-0.04470635840469374 0.13780000001224185 2.5851716600744368e-15" rpy="0.0 0.0 0.0" />
+            <mass value="1.8503505418501183" />
+            <inertia ixx="0.009068241052052672" iyy="0.012057534102957429" izz="0.012062533232161053" ixy="-1.0108657530038691e-12" iyz="3.3779131835415255e-15" ixz="9.056318243304316e-16" />
+        </inertial>
+        <visual name="BASE_ROBO_V2_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/BASE_ROBO_V2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="BASE_ROBO_V2_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/BASE_ROBO_V2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </link>
+    <link name="BASE_2">
+        <inertial>
+            <origin xyz="0.17341553982390867 1.6488500537148453e-09 -1.9513015778183097e-08" rpy="0.0 -0.0 0.0" />
+            <mass value="2.670122955781989" />
+            <inertia ixx="0.004887728410645593" iyy="0.02281049238477796" izz="0.02281670942151974" ixy="-1.0750279415576089e-10" iyz="-5.6888720496367015e-08" ixz="6.9641941263277884e-09" />
+        </inertial>
+        <visual name="BASE_2_visual">
+            <origin xyz="-0.30554771151639604 0.13779456724760394 0.0012237700000000355" rpy="3.1327117471550867 -5.959855065956516e-17 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/BASE_2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="BASE_2_collision">
+            <origin xyz="-0.30554771151639604 0.13779456724760394 0.0012237700000000355" rpy="3.1327117471550867 -5.959855065956516e-17 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/BASE_2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="ELO2">
+        <inertial>
+            <origin xyz="0.030012456269309738 -0.08752014733070843 -0.2337539266868986" rpy="1.3864474919117587e-64 -0.0 0.0" />
+            <mass value="6.43787327141781" />
+            <inertia ixx="0.27519677160093164" iyy="0.23758679595155274" izz="0.04617345436963305" ixy="9.417459931909677e-06" iyz="-0.083351955153321" ixz="2.5152703164388335e-05" />
+        </inertial>
+        <visual name="ELO2_visual">
+            <origin xyz="-0.998547711516273 0.13570282508191328 -0.023949609118288476" rpy="1.5707963267949059 1.56191542036019 1.570796326794906" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/ELO2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="ELO2_collision">
+            <origin xyz="-0.998547711516273 0.13570282508191328 -0.023949609118288476" rpy="1.5707963267949059 1.56191542036019 1.570796326794906" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/ELO2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="ELO3">
+        <inertial>
+            <origin xyz="-0.0008639837898317283 1.9895196601282807e-15 0.09728288912263892" rpy="0.0 -5.294179852042285e-64 0.0" />
+            <mass value="3.8843313805790545" />
+            <inertia ixx="0.039099775529421565" iyy="0.017127613906986472" izz="0.023886167133201904" ixy="0.00024317972848089464" iyz="2.1597131965305237e-06" ixz="0.00013512484281840917" />
+        </inertial>
+        <visual name="ELO3_visual">
+            <origin xyz="-0.35025844732015915 0.9965477115165328 -0.06825145262830638" rpy="0.011065653792468863 -1.1947799207235021 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/ELO3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="ELO3_collision">
+            <origin xyz="-0.35025844732015915 0.9965477115165328 -0.06825145262830638" rpy="0.011065653792468863 -1.1947799207235021 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://my_robot_urdf/urdf/meshes/ELO3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="BASE_2_Revolute-1" type="continuous">
+        <origin xyz="0.32699999999999996 0.0 0.0" rpy="2.465190328815662e-32 1.232595164407831e-32 1.1248198369963932e-32" />
+        <parent link="BASE_2" />
+        <child link="ELO2" />
+        <axis xyz="1.0 0.0 0.0" />
+        <dynamics damping="0.1" friction="0.01" />
+    </joint>
+    <joint name="ELO2_Revolute-2" type="continuous">
+        <origin xyz="0.03 -0.1998649 -0.53381085" rpy="-3.141592653589793 -0.3671354996366823 -1.5707963267948966" />
+        <parent link="ELO2" />
+        <child link="ELO3" />
+        <axis xyz="-0.008880861552936548 1.1543376974195777e-32 0.9999602592093735" />
+    </joint>
+    <joint name="BASE_ROBO_V2_Slider-3" type="prismatic">
+        <origin xyz="-0.032278 0.13780000136417764 2.8321857201141223e-09" rpy="-0.008880906434706804 -0.0 3.141592653589793" />
+        <parent link="BASE_ROBO_V2" />
+        <child link="BASE_2" />
+        <axis xyz="1.0 0.0 0.0" />
+        <limit lower="0.00" upper="0.08" effort="100" velocity="10" />
+    </joint>
+    <joint name="joint_0" type="fixed">
+        <parent link="world"/>
+        <child link="BASE_ROBO_V2"/>
+        <origin xyz="0 -0.14 0.005" rpy="0 1.57 0"/>
+    </joint>
+
+</robot>

@@ -1,0 +1,52 @@
+Visualization Manager:
+  Class: ""
+  Enabled: true
+  Name: root
+  Panels:
+    - Class: rviz/Displays
+      Name: Displays
+    - Class: rviz/Views
+      Name: Views
+  Displays:
+    - Alpha: 1
+      Class: rviz/Grid
+      Enabled: true
+      Name: Grid
+      Value: "<default>"
+      Cell Size: 1
+      Plane: XY
+      Color: 160;160;160
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Description: Displays a URDF model.
+      Enabled: true
+      Name: RobotModel
+      Value: "<default>"
+      Robot Description: robot_description
+      Links:
+        - Expand Joint Tree: true
+          Expand Link Tree: true
+      Alpha: 1
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 10
+      Name: TF
+      Show Axes: true
+  Global Options:
+    Background Color: 48;48;48
+    Fixed Frame: world  # Certifique-se de que o quadro fixo está configurado corretamente
+    Frame Rate: 50
+  Image Transport: raw
+  Views:
+    Class: rviz/Orbit  # Modo de visualização Orbit
+    Name: Orbit
+    Focal Point: 0;0;0  # Focal Point no centro da cena ou do robô
+    Distance: 10  # Distância inicial da câmera ao ponto focal
+    Speed: 0.1  # Velocidade de rotação da câmera
+    Pitch: 0  # Inclinação inicial
+    Yaw: 0  # Rotação inicial
+    Roll: 0  # Rolamento inicial
+    Near Clip Distance: 0.1  # Distância mínima de corte da câmera
+    Far Clip Distance: 1000  # Distância máxima de corte da câmera
+    Camera Type: Perspective  # Tipo de câmera ajustado para perspectiva
+    Interaction Mode: "3D"  # Modo de interação 3D para zoom com o mouse
