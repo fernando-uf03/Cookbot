@@ -1,8 +1,9 @@
 # Cookbot
 
+O repositório destina-se à documentação do projeto do robô Cookbot, o qual é um robô manipulador do tipo PRR responsável por cozinhar batatas fritas em restaurante. Esse projeto foi desenvolvido na disciplina de Dinâmica de Sistemas Robóticos por estudantes da Escola de Engenharia de São Carlos (EESC-USP).
+
 ![Cookbot no CAD Creo Parametric](images/Cookbot.jpg "Cookbot")
 
-O repositório destina-se à documentação do projeto do robô Cookbot, o qual é um robô manipulador do tipo PRR responsável por cozinhar batatas fritas em restaurante. Esse projeto foi desenvolvido na disciplina de Dinâmica de Sistemas Robóticos por estudantes da Escola de Engenharia de São Carlos (EESC-USP).
 
 Em um projeto de engenharia, para a análise dinâmica de um robô manipulador, é fundamental a realização de simulações para verificar se o projeto é funcional e viável de ser fabricado na vida real. Para isso, esse repositório visa ser um guia ao leitor que deseja aprender como realizar a simulação do robô Cookbot.
 
@@ -28,9 +29,15 @@ Primeiramente, é importante ressaltar que o projeto foi desenvolvido em **ROS1 
   ```
   roslaunch my_robot_urdf spawn_urdf.launch
   ```
+  
+![Cookbot no Gazebo](images/gazebo.png "Gazebo")
+  
   - Para lançar o robô no **RViz**, use o seguinte comando
   ```
   roslaunch my_robot_urdf display.launch
   ```
+
+![Cookbot no RViz](images/rviz.png "RViz")
+
 
    
