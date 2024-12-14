@@ -11,9 +11,9 @@ Primeiramente, é importante ressaltar que o projeto foi desenvolvido em **ROS1 
 **Passo a passo para simulação:**
 
 - Primeiramente, faça um clone deste repositório no diretório src (source) do workspace ROS de seu computador:
-	```
-	git clone https://github.com/fernando-uf03/Cookbot.git
-	```
+  ```
+  git clone https://github.com/fernando-uf03/Cookbot.git
+  ```
 
 - Na raiz do workspace, isto é, dentro do workspace ROS, mas fora dos diretórios (src, devel e build, por exemplo), envie os seguintes comandos no terminal na seguinte ordem:
   ```
@@ -24,11 +24,11 @@ Primeiramente, é importante ressaltar que o projeto foi desenvolvido em **ROS1 
   ```
 
 - Após isso, basta lançar o Cookbot no **Gazebo** e no **RViz**:
-- - Para lançar o robô no **Gazebo**, use o seguinte comando
+  - Para lançar o robô no **Gazebo**, use o seguinte comando
   ```
   roslaunch my_robot_urdf spawn_urdf.launch
   ```
-- -Para lançar o robô no **RViz**, use o seguinte comando
+  - Para lançar o robô no **RViz**, use o seguinte comando
   ```
   roslaunch my_robot_urdf display.launch
   ```
